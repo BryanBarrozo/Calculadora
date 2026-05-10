@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <section class="historico">
+        <header class="head_historico">
+            <h1>Historico</h1>
+            <button type="button" id="limpar_historico"><i class="fa-solid fa-trash"></i></button>
+        </header>
+        <div id="body_historico">
+            
+        </div>
+        
+    </section>
+
+    <section class="calculadora">
+        <div id="console">
+            <input type="text" id="input_console" readonly>
+        </div>
+        <div class="main_calculadora">
+            <div>
+                <button type="button" class="button type1" id="limpar_tudo"><i class="fa-solid fa-a"></i><i class="fa-solid fa-c"></i></button>
+                <button type="button" class="button type1" id="limpar"><i class="fa-solid fa-c"></i></button>
+                <button type="button" class="button type1" id="botao_porcentagem"><i class="fa-solid fa-percent"></i></button>
+                <button type="button" class="button type2" id="botao_dividir"><i class="fa-solid fa-divide"></i></button>
+            </div>
+
+            <div>
+                <button type="button" class="button type1" id="botao_sete"><i class="fa-solid fa-7"></i></button>
+                <button type="button" class="button type1" id="botao_oito"><i class="fa-solid fa-8"></i></button>
+                <button type="button" class="button type1" id="botao_nove"><i class="fa-solid fa-9"></i></button>
+                <button type="button" class="button type2" id="botao_vezes"><i class="fa-solid fa-x"></i></button>
+            </div>
+
+            <div>
+                <button type="button" class="button type1" id="botao_quatro"><i class="fa-solid fa-4"></i></button>
+                <button type="button" class="button type1" id="botao_cinco"><i class="fa-solid fa-5"></i></button>
+                <button type="button" class="button type1" id="botao_seis"><i class="fa-solid fa-6"></i></button>
+                <button type="button" class="button type2" id="botao_menos"><i class="fa-solid fa-minus"></i></button>
+            </div>
+
+            <div>
+                <button type="button" class="button type1" id="botao_um"><i class="fa-solid fa-1"></i></button>
+                <button type="button" class="button type1" id="botao_dois"><i class="fa-solid fa-2"></i></button>
+                <button type="button" class="button type1" id="botao_tres"><i class="fa-solid fa-3"></i></button>
+                <button type="button" class="button type2" id="botao_mais"><i class="fa-solid fa-plus"></i></button>
+            </div>
+
+            <div>
+                <button type="button" class="button_zero type1" id="botao_zero"><i class="fa-solid fa-0"></i></button>
+                <button type="button" class="button type1" id="botao_ponto"><i class="fa-solid fa-circle"></i></button>
+                <button type="submit" class="button type2" id="butaon_igual"><i class="fa-solid fa-equals"></i></button>
+            </div>
+
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>

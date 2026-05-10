@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Manrope', sans-serif;
+    background-color: #0b1326;
+    gap: 10px;
+}
+
+
+
+/* Tela de historico*/
+.historico{   
+    height: 50vh;
+    width: 19vw;
+    background-color: #131b2e;
+    border-radius: 10px;
+    border: 1px solid #31394d;
+}
+
+.head_historico{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    gap: 50%;
+}
+
+.head_historico h1{
+    opacity: 80%;
+    font-size: medium;
+    font-weight: 700;
+    color: #94A3B8;
+    cursor: default;
+}
+
+.head_historico button{
+    color: #94A3B8;
+    background-color: #131b2e;
+    border: 0;
+    cursor: pointer;
+}
+
+#body_historico{
+    height: 90%;
+    width: 95%;
+    color: #94A3B8;
+    margin-left: 5px;
+    overflow-y: auto;
+    opacity: 80%;
+}
+
+#body_historico::-webkit-scrollbar {
+    width: 8px;
+}
+
+#body_historico::-webkit-scrollbar-track {
+    background: #131b2e;
+}
+
+#body_historico::-webkit-scrollbar-thumb {
+    background: #31394d;
+    border-radius: 10px;
+}
+
+#body_historico::-webkit-scrollbar-thumb:hover {
+    background: #444f6b;
+}
+
+/*Calculadora*/
+
+.calculadora{
+    height: 50vh;
+    width: 30vw;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 0.5px solid #31394d;
+}
+
+#console{
+    height: 20%;
+    width: 100%;
+    background-color: #060e20;
+}
+
+#input_console{
+    height: 100%;
+    width: 90%;
+    border: 0;
+    outline: none;
+    background-color: #060e20;
+    color: #94A3B8;
+    font-size: larger;
+    cursor: default;
+    margin-left: 10px;
+}
+
+
+.main_calculadora{
+    display: grid;
+    height: 80%;
+    width: 100%;
+    background-color: #131b2e;
+}
+
+.main_calculadora div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+
+.button {
+    height: 85%;
+    width: 20%;
+    min-width: 0;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #94A3B8;
+    opacity: 80%;
+}
+
+.button_zero{
+    height: 85%;
+    width: 43%;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #94A3B8;
+    opacity: 80%;
+}
+
+.div_zero{
+    height: 100%;
+    width: 60%;
+}
+/*tipos dos botoes*/
+.type1{
+    background-color: #31394d;
+    transition: 0.5s;
+}
+.type1:hover{
+    background-color: #444f6b;
+}
+.type2{
+    background-color: #3d5c57;
+    transition: 0.5s;
+}
+.type2:hover{
+    background-color: #507972;
+}
+/*Icone*/
+.fa-circle{
+    font-size: 5px;
+}
+
+
+
+/*
+Objetivos JS
+
+o teclado tem que ser funcional com a calculadora
+
+Historico funcional
+
+
+
+*/
